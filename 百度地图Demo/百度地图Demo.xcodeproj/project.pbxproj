@@ -563,7 +563,7 @@
 		FE0EFC6919D29D1200506473 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "百度地图Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -579,7 +579,7 @@
 		FE0EFC6A19D29D1200506473 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "百度地图Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -645,6 +645,7 @@
 				FE0EFC6A19D29D1200506473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE0EFC6B19D29D1200506473 /* Build configuration list for PBXNativeTarget "百度地图DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +654,7 @@
 				FE0EFC6D19D29D1200506473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
